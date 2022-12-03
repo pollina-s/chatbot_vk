@@ -19,8 +19,8 @@ for event in longpoll.listen():
                 if msg == 'hi':
                     sender(id, 'Hi!')
 
-                if msg == 'how are you?':
-                    sender(id, 'Good! Thank you!')
+                if msg == 'what are the chat rules?':
+                    sender(id, 'be respectful; keep chat appropriate for all ages; do not use rude or inappropriate language; do not cheat or manipulate others.')
 
                 if msg in ['some bad word']:
                     sender(id, 'It really offends me')
